@@ -586,6 +586,7 @@ GLFWAPI EGLContext glfwGetEGLContext(GLFWwindow* window);
  *  @ingroup native
  */
 GLFWAPI EGLSurface glfwGetEGLSurface(GLFWwindow* window);
+GLFWAPI EGLConfig glfwGetEGLConfig(GLFWwindow* window);
 #endif
 
 #if defined(GLFW_EXPOSE_NATIVE_OSMESA)
